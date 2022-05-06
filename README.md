@@ -268,13 +268,10 @@ const ul = document.getElementsByTagName("ul")[0];
 const secondChild = ul.querySelector("li:nth-child(2)");
 ul.removeChild(secondChild);
 ```
-
-Here you can see the power of `querySelector()`: we can use it to find the
-second `li` element of `ul`. We then pass that element as the argument to our
-`removeChild` method, which removes the element from our `ul`.
+z`ul`.
 
 What if we want to remove the whole unordered list (`ul`)?
-
+zrr
 ### `element.remove()`
 
 We can just call `remove()` on the element itself:
